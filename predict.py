@@ -2,13 +2,12 @@
 import tensorflow as tf
 
 from flask import Flask
-from flask import request,jsonify
+from flask import request
 from flask_cors import CORS,cross_origin
 
 import numpy as np
 from keras.models import load_model
 import cv2
-import sys
 
 #INIT
 
@@ -33,7 +32,7 @@ app = Flask(__name__)
 CORS(app)
 app.config['CORS_HEADERS']='Content-Type'
 
-@app.route('/upload',methods=['GET', 'POST'])
+@app.route('/',methods=['GET', 'POST'])
 @cross_origin(origins='*')
 def index():
     return "Server running"
