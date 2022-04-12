@@ -1,0 +1,7 @@
+keras==2.4.3
+tensorflow==2.4
+tensorflow-gpu==2.4
+opencv-python
+flask
+Flask-Cors
+numpy
