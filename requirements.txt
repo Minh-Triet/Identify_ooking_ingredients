@@ -1,6 +1,5 @@
 keras
 tensorflow
-tensorflow-gpu
 opencv-python
 flask
 Flask-Cors

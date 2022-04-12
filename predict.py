@@ -54,4 +54,4 @@ def upload():
     return class_name[np.argmax(predict)]
 
 if __name__ == "__main__":
-    app.run(debug=True,port=8080)
+    app.run()
