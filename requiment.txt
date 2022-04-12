@@ -5,3 +5,4 @@ opencv-python
 flask
 Flask-Cors
 numpy
+python==3.7
