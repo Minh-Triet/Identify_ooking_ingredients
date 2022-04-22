@@ -1,5 +1,6 @@
 keras
-tensorflow==1.15.0
+tensorflow==2.8
+tensorflow-gpu==2.8
 opencv-python
 flask
 Flask-Cors
